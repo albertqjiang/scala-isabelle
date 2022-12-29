@@ -197,7 +197,7 @@ object IsabelleTest {
     else if (SystemUtils.IS_OS_WINDOWS)
       s"c:\\Programs\\Isabelle$version"
     else
-      s"/opt/Isabelle$version"
+      s"/home/qj213/Isabelle$version"
     Paths.get(path)
   }
 
